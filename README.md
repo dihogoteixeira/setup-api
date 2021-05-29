@@ -1,6 +1,6 @@
 # Spring Boot, MySQL, JPA, Hibernate Rest API Tutorial
 
-Build Restful CRUD API for a simple 'Estabelecimento' application using Spring Boot, Mysql, JPA and Hibernate.
+Build Restful CRUD API for a simple 'Setups' application using Spring Boot, Mysql, JPA and Hibernate.
 
 ## Requirements
 
