@@ -4,11 +4,9 @@ Build Restful CRUD API for a simple 'Setups' application using Spring Boot, Mysq
 
 ## Requirements
 
-1. Java - 1.8.x
-
-2. Maven - 3.x.x
-
-3. Mysql - 5.x.x
+1. Java JDK (v8+) (https://www.oracle.com/technetwork/java/javase/downloads/index.html)
+2. Maven (v3+) (https://maven.apache.org/download.cgi)
+3. MySQL
 
 ## Steps to Setup
 
