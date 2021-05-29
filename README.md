@@ -31,16 +31,16 @@ CREATE DATABASE checkpoint_setup
 **2.2 Create Mysql TABLE and set column id AUTO_INCREMENT**
 
 ```mysql
-CREATE TABLE `checkpoint_setup`.`setup` (
-                                        `id` INT NOT NULL,
-                                        `name` VARCHAR(255) NULL,
-                                        `email` VARCHAR(255) NULL,
-                                        `phone` VARCHAR(45) NULL,
-                                        PRIMARY KEY (`id`));
+CREATE TABLE 'checkpoint_setup'.'setup' (
+                                        'id' INT NOT NULL,
+                                        'name' VARCHAR(255) NULL,
+                                        'email' VARCHAR(255) NULL,
+                                        'phone' VARCHAR(45) NULL,
+                                        PRIMARY KEY ('id'));
 
-ALTER TABLE `checkpoint_setup`.`setup`
-    CHANGE COLUMN `id` `id` INT(11) NOT NULL AUTO_INCREMENT ,
-    ADD UNIQUE INDEX `id_UNIQUE` (`id` ASC);
+ALTER TABLE 'checkpoint_setup'.'setup'
+    CHANGE COLUMN 'id' 'id' INT(11) NOT NULL AUTO_INCREMENT,
+    ADD UNIQUE INDEX 'id_UNIQUE' ('id' ASC);
 ```
 
 **3. Change mysql username and password as per your installation**
