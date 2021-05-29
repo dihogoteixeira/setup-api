@@ -15,7 +15,7 @@ Build Restful CRUD API for a simple 'Setups' application using Spring Boot, Mysq
 **1. Clone the application**
 
 ```bash
-git clone https://gitlab.com/slashicorp1/challange-application-api.git
+git clone https://github.com/dihogoteixeira/setup-api.git
 ```
 
 **2.0 Running Docker Mysql Container**
