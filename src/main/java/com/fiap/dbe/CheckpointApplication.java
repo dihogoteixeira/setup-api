@@ -23,8 +23,8 @@ public class CheckpointApplication {
             LongStream.range(1, 11)
                     .mapToObj(i -> {
                         Setup s = new Setup();
-                        s.setName("Contact " + i);
-                        s.setEmail("contact" + i + "@email.com");
+                        s.setName("Name " + i);
+                        s.setEmail("email" + i + "@email.com");
                         s.setPhone("(111) 111-1111");
                         return s;
                     })
